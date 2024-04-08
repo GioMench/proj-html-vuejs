@@ -1,7 +1,12 @@
 <script>
 
 export default{
-    name: 'HeaderApp'
+    name: 'HeaderApp',
+    data(){
+        return{
+            infoList:['Service', 'Courses', 'About', 'FAQ', 'Blog', 'Contact Us']
+        }
+    }
 }
 </script>
 
@@ -23,19 +28,27 @@ export default{
             </div>
         </div>
         <!--right-side-navbar-->
-        <div class="navbar_right">
+        <div class="navbar_right d-flex flex-column justify-content-between">
 
             <div>
                 <span>
-                    numero
+                    <i class="fa-solid fa-phone"style="color: #FFCD18;"></i>
+                    Call Now 123-456-7890
                 </span>
-                <span>
-                    btn Donate
+                <span class="align-self-end">
+                    <button type="button" class="btn btn-light px-5 py-1 fw-medium" style="margin-left: 125px;">Donate</button>
                 </span>
             </div>
 
             <div>
-                list dinamica
+                <ul class="d-flex m-0" >
+                    <li  class="px-2" style="color: #FFCD18;">
+                        Home
+                    </li>
+                    <li class="px-2 " v-for="info in infoList">
+                        {{ info }}
+                    </li>
+                </ul>
             </div>
         </div>
 
