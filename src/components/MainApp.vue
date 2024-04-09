@@ -11,8 +11,9 @@ export default {
 </script>
 
 <template>
-
+    <!--welcome-section-->
     <WelcomeApp />
+    <!--service-section-->
     <ServiceApp />
 
 

@@ -13,35 +13,31 @@ export default{
         <div class="align-middle">
             <i class="fa-solid fa-phone" style="color: #FFCD18;"></i>
         </div>
-        <!---->
+        <!--welcome-info-->
         <div class="me_container" style="height: 100%;">
             <div class="me_container_xs" style="height: 100%">
-
+                <!--welcome-fake-button-->
                 <span class="text-dark fw-semibold text-uppercase"
                     style="background-color: #FFCD18; padding: 2px 4px; border-radius: 20px; font-size: 10px;">
                     Welcome
                 </span>
+                <!--title-->
                 <h1 class="text-uppercase text-light fw-medium">
                     academic chess for <span class="fst-italic" style="color: #FFCD18;">everyone</span>
                 </h1>
+                <!--explain-academy-->
                 <p class="text-light fw-light" style="font-size: 12px;">
                     We are dedicated to broadening and developing chess as art, 
                     recreation, and as a significant element of culture in Northern
                     California
                 </p>
+                <!--button-for-more-->
                 <button type="button" class="btn px-4 py-2 fw-semibold" style="background-color: #FFCD18;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Enroll Now</button>
                 <button type="button" class="btn btn-outline-light mx-2 px-4 py-2 fw-semibold" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn More</button>
 
             </div>
-
-
-
         </div>
     </section>
-
-
-
-
 </template>
 
 <style scoped>
