@@ -29,8 +29,8 @@ export default{
                     recreation, and as a significant element of culture in Northern
                     California
                 </p>
-                <button type="button" class="btn px-4 py-2" style="background-color: #FFCD18;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Enroll Now</button>
-                <button type="button" class="btn btn-outline-light mx-2 px-4 py-2" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn More</button>
+                <button type="button" class="btn px-4 py-2 fw-semibold" style="background-color: #FFCD18;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Enroll Now</button>
+                <button type="button" class="btn btn-outline-light mx-2 px-4 py-2 fw-semibold" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn More</button>
 
             </div>
 
