@@ -12,9 +12,9 @@ export default{
 
 <template>
 
-  <section class=" section_header">
+  <section class="section_header">
     <!--navbar-->
-    <div class="container-md d-flex justify-content-between p-4 text-light fw-light" style="height: 100%;">
+    <div class="me_container d-flex justify-content-between p-1 text-light fw-light" style="height: 100%;">
         <!--left-side-navbar-->
         <div class="navbar_left d-flex flex-column justify-content-between"> 
             <!--address-academy-->
@@ -67,9 +67,11 @@ export default{
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
 
 .section_header{
-    height: 130px;
-    background-color: rgba(0, 0, 0, 0.431);
-    z-index: 1;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.406);
+    z-index: 2;
+   position: relative;
+   font-size: 14px;
 
 }
 

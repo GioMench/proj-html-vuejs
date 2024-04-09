@@ -1,6 +1,14 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 @import 'bootstrap-vue/dist/bootstrap-vue.css';
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+/*DEBUG*/
+*{
+  box-sizing: border-box;
+  border: 1px dashed black;
+}
+
+/*UTILITY*/
 :root {
   --chess-lighter: #FFFFFF;
   --chess-darker: #404040;
@@ -8,6 +16,12 @@
   --chess-text: #E8E8E8;
   --font-family: alexandria 
 
+}
+
+.me_container{
+  max-width: 980px;
+  margin: auto;
+  
 }
 
 li{

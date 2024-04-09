@@ -1,18 +1,19 @@
 <script>
+import MainApp from './components/MainApp.vue'
+import HeaderApp from './components/HeaderApp.vue'
 
-import HeaderApp from './components/HeaderApp.vue';
- export default{
+export default {
   name: 'App',
-  components:{
+  components: {
     HeaderApp,
+    MainApp
   }
- }
+}
 </script>
 
 <template>
- <HeaderApp />
+  <HeaderApp />
+  <MainApp />
 </template>
 
-<style>
-
-</style>
+<style></style>
