@@ -42,11 +42,11 @@ export default{
 
             <div>
                 <ul class="d-flex m-0" >
-                    <li  class="px-2 text_accent">
-                        Home
+                    <li  class="px-2 ">
+                        <a class="text_accent" href="#">Home</a>
                     </li>
                     <li class="px-2 " v-for="info in infoList">
-                        {{ info }}
+                        <a   class="text-light" href="#">{{ info }}</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +68,6 @@ export default{
     z-index: 2;
    position: relative;
    font-size: 12px;
-
 }
 
 

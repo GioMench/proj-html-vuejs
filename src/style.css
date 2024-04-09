@@ -32,6 +32,9 @@
 li {
   list-style: none;
 }
+a{
+  text-decoration: none;
+}
 
 .text_grey {
   color: var(--chess-darker);
