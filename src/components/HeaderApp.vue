@@ -64,7 +64,7 @@ export default{
 <style scoped>
 .section_header{
     height: 80px;
-    background-color: rgba(0, 0, 0, 0.406);
+    background-color:#00030f65 ;
     z-index: 2;
    position: relative;
    font-size: 12px;

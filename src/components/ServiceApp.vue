@@ -106,10 +106,10 @@ export default {
                     <div class="col-6 gx-5 gy-4">
                         <div>
                             <!--icon-service-->
-                            <img class="icon_services text-capitalize" src="/public/images/mt-2236-home-icon4.png" alt="icon team" >
+                            <img class="icon_services " src="/public/images/mt-2236-home-icon4.png" alt="icon team" >
                         </div>
                         <!--title-service-->
-                        <div class="fw-semibold" style="font-size: 13px;">
+                        <div class="fw-semibold text-capitalize" style="font-size: 13px;">
                            best chess openings
                         </div>
                         <!--description-serice-->
