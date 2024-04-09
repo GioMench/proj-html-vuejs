@@ -20,7 +20,7 @@ export default {
                 </div>
 
             </div>
-            <button type="button" class="btn btn-outline-dark px-5 py-2 fw-semibold"
+            <button type="button" class="btn btn-outline-dark px-4 py-2 fw-semibold"
                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;border-width: 1.5px;">
                 Learn More
             </button>
