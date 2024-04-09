@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
 
 /*DEBUG*/
-*{
+* {
   box-sizing: border-box;
   border: 1px dashed black;
-  font-family:'Alexandria' ;
 }
 
 /*UTILITIES*/
@@ -16,19 +15,31 @@
   --chess-accent: #FFCD18;
   --chess-text: #E8E8E8;
 }
-
-.me_container{
-  max-width: 800px;
-  margin: auto; 
+*{
+  font-family: 'Alexandria';
 }
-.me_container_xs{
+.me_container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.me_container_xs {
   width: 50%;
   padding: 60px 5px;
-  
+
 }
 
-li{
+li {
   list-style: none;
 }
 
+.text_grey {
+  color: var(--chess-darker);
+}
 
+.bg_accent{
+  background-color: var(--chess-accent);
+}
+.text_accent{
+  color: var(--chess-accent);
+}

@@ -19,7 +19,7 @@ export default{
         <div class="navbar_left d-flex flex-column justify-content-between"> 
             <!--address-academy-->
             <div>
-                <span style="color: #FFCD18;"><i class="fa-solid fa-location-dot"></i></span>
+                <span><i class="fa-solid fa-location-dot text_accent"></i></span>
                 6767 Santa Monica Blvd,Los Angeles,CA 90038
             </div>
             <!--logo-academy-->
@@ -32,7 +32,7 @@ export default{
 
             <div>
                 <span>
-                    <i class="fa-solid fa-phone"style="color: #FFCD18;"></i>
+                    <i class="fa-solid fa-phone text_accent"></i>
                     Call Now 123-456-7890
                 </span>
                 <span class="align-self-end">
@@ -42,7 +42,7 @@ export default{
 
             <div>
                 <ul class="d-flex m-0" >
-                    <li  class="px-2" style="color: #FFCD18;">
+                    <li  class="px-2 text_accent">
                         Home
                     </li>
                     <li class="px-2 " v-for="info in infoList">
