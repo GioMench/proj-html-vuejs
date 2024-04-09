@@ -9,7 +9,9 @@ export default {
                 'Learn to plan, organize, and prioritize',
                 'Regulate emotions',
                 'Learn to pay attention to detail'
-            ]
+            ],
+
+            
         }
     }
 }
@@ -19,7 +21,7 @@ export default {
 
 <template>
     <!--service-section-->
-    <section class="me_container container">
+    <section class="me_container container py-5">
         <!--title-->
         <h3 class="text-center text-uppercase fw-semibold">
             our services
@@ -57,19 +59,52 @@ export default {
             </div>
             <!--right-section-service-->
             <div class="col-8">
-                <div class="row">
-                    <div class="col-6">
-                        lorem
+                <div class="row ">
+                    <div class="col-6 gx-5 ">
+                        <div>
+                            <img class="icon_services" src="/public/images/mt-2236-home-icon1.png" alt="icon team" >
+                        </div>
+                        <div class="fw-semibold text-capitalize" style="font-size: 13px;">
+                            various age groups
+                        </div>
+                        <p class="text_grey fw-light" style="font-size: 11px;" >
+                            We provide chess classes to both children from 5 years old and adult.
+                        </p>
                     </div>
-                    <div class="col-6">
-                        lorem
+                    <div class="col-6 gx-5 ">
+                        <div>
+                            <img class="icon_services" src="/public/images/mt-2236-home-icon2.png" alt="icon team" >
+                        </div>
+                        <div class="fw-semibold text-capitalize" style="font-size: 13px;">
+                            top chess variants
+                        </div>
+                        <p class="text_grey fw-light" style="font-size: 11px;" >
+                            We don't only teach classical chess but also other top variants of this game.
+                        </p>
                     </div>
-                    <div class="col-6">
-                        lorem
+                    <div class="col-6 gx-5 gy-4">
+                        <div>
+                            <img class="icon_services" src="/public/images/mt-2236-home-icon3.png" alt="icon team" >
+                        </div>
+                        <div class="fw-semibold text-capitalize" style="font-size: 13px;">
+                            best chess players
+                        </div>
+                        <p class="text_grey fw-light" style="font-size: 11px;" >
+                            Our alumni have won many prestigious chess tournaments in the country.
+                        </p>
                     </div>
-                    <div class="col-6">
-                        lorem
+                    <div class="col-6 gx-5 gy-4">
+                        <div>
+                            <img class="icon_services text-capitalize" src="/public/images/mt-2236-home-icon4.png" alt="icon team" >
+                        </div>
+                        <div class="fw-semibold" style="font-size: 13px;">
+                           best chess openings
+                        </div>
+                        <p class="text_grey fw-light" style="font-size: 11px;" >
+                            Our students know all the best chess openings and how to use them.
+                        </p>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -82,4 +117,8 @@ export default {
 
 </template>
 
-<style scoped></style>
+<style scoped>
+.icon_services{
+    width: 40px;
+}
+</style>
