@@ -10,12 +10,12 @@ export default {
     <!--play-banner-section-->
     <section class="banner bg_accent">
         <div class="me_container d-flex justify-content-between align-items-center p-4" style="height: 100%;">
-            <img src="/public/images/mt-2236-home-icon5.png" alt="chess horse" style="width: 65px;">
+            <img src="/public/images/mt-2236-home-icon5.png" alt="chess horse" style="width: 70px; height: 90px;">
             <div>
-                <h3 class="text-uppercase fw-semibold">
+                <div class="text-uppercase fw-semibold" style="font-size: 30px;">
                     play & learn
-                </h3>
-                <div class="fw-light" style="font-size: 14px;">
+                </div>
+                <div class="fw-light" style="font-size: 17px;">
                     Take a look into our day to day life here at Chess School
                 </div>
 
