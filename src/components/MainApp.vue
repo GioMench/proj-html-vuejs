@@ -47,6 +47,7 @@ export default {
 .welcome_section {
     z-index: 3;
     height: 460px;
+    position: relative;
 }
 
 .fa-phone {
@@ -55,5 +56,7 @@ export default {
     padding: 10px;
     border-radius: 50%;
     margin-left: 0;
+    position: absolute;
+    top: 50%;
 }
 </style>
