@@ -120,13 +120,7 @@ export default {
                 </div>
             </div>
         </div>
-
     </section>
-
-
-
-
-
 </template>
 
 <style scoped>
