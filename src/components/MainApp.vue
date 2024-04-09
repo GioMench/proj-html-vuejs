@@ -3,13 +3,15 @@ import WelcomeApp from './WelcomeApp.vue'
 import ServiceApp from './ServiceApp.vue'
 import ImageGalleryApp from './ImageGalleryApp.vue'
 import BannerApp from './BannerApp.vue'
+import CoursesApp from './CoursesApp.vue'
 export default {
     name: 'MainApp',
     components: {
         WelcomeApp,
         ServiceApp,
         ImageGalleryApp,
-        BannerApp
+        BannerApp,
+        CoursesApp
     }
 }
 </script>
@@ -23,6 +25,8 @@ export default {
     <ImageGalleryApp />
     <!--play-banner-section-->
     <BannerApp />
+    <!--courses-section-->
+    <CoursesApp />
 
 
 
