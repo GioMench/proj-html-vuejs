@@ -2,16 +2,18 @@
 import WelcomeApp from './WelcomeApp.vue'
 import ServiceApp from './ServiceApp.vue'
 import ImageGalleryApp from './ImageGalleryApp.vue'
-import BannerApp from './BannerApp.vue'
+import PlayBannerApp from './PlayBannerApp.vue'
 import CoursesApp from './CoursesApp.vue'
+import StepBannerApp from './StepBannerApp.vue'
 export default {
     name: 'MainApp',
     components: {
         WelcomeApp,
         ServiceApp,
         ImageGalleryApp,
-        BannerApp,
-        CoursesApp
+        PlayBannerApp,
+        CoursesApp,
+        StepBannerApp
     }
 }
 </script>
@@ -24,9 +26,11 @@ export default {
     <!--grid-image-section-->
     <ImageGalleryApp />
     <!--play-banner-section-->
-    <BannerApp />
+    <PlayBannerApp />
     <!--courses-section-->
     <CoursesApp />
+    <!--step-banner-section-->
+    <StepBannerApp />
 
 
 
