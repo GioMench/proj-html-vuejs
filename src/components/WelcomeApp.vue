@@ -33,7 +33,7 @@ export default{
                 </p>
                 <!--button-for-more-->
                 <button type="button" class="btn px-4 py-2 fw-semibold bg_accent" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Enroll Now</button>
-                <button type="button" class="btn btn-outline-light mx-2 px-4 py-2 fw-semibold" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn More</button>
+                <button type="button" class="btn btn-outline-light mx-2 px-4 py-2 fw-semibold" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;border-width: 1.5px;">Learn More</button>
 
             </div>
         </div>
