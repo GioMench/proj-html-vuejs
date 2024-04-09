@@ -18,7 +18,7 @@ export default{
             <div class="me_container_xs" style="height: 100%">
                 <!--welcome-fake-button-->
                 <span class="text-dark fw-semibold text-uppercase bg_accent"
-                    style="padding: 2px 4px; border-radius: 20px; font-size: 10px;">
+                    style="padding: 1px 6px; border-radius: 20px; font-size: 10px;">
                     Welcome
                 </span>
                 <!--title-->
