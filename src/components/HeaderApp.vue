@@ -61,7 +61,7 @@ export default{
    
 </template>
 
-<style>
+<style scoped>
 .section_header{
     height: 80px;
     background-color: rgba(0, 0, 0, 0.406);
