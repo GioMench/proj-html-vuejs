@@ -9,8 +9,6 @@ export default {
     <!--back-img-welcome-section-->
     <img class=" img_top" src="/public/images/mt-2236-home-bg1.jpg" alt="">
     <!--welcome-section-->
-
-
     <div class="container-fluid welcome_section">
         <span class="align-middle">
             <i class="fa-solid fa-phone" style="color: #FFCD18;"></i>
