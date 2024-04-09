@@ -51,6 +51,7 @@ export default {
                         {{ skill }}
                     </li>
                 </ul>
+                <button type="button" class="btn px-4 py-2 fw-semibold bg_accent" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn More</button>
 
 
             </div>
