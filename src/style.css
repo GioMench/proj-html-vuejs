@@ -46,3 +46,7 @@ a{
 .text_accent{
   color: var(--chess-accent);
 }
+
+.btn{
+  border-radius: 3px;
+}

@@ -5,6 +5,7 @@ import ImageGalleryApp from './ImageGalleryApp.vue'
 import PlayBannerApp from './PlayBannerApp.vue'
 import CoursesApp from './CoursesApp.vue'
 import StepBannerApp from './StepBannerApp.vue'
+import EventsApp from './EventsApp.vue'
 export default {
     name: 'MainApp',
     components: {
@@ -13,7 +14,8 @@ export default {
         ImageGalleryApp,
         PlayBannerApp,
         CoursesApp,
-        StepBannerApp
+        StepBannerApp,
+        EventsApp
     }
 }
 </script>
@@ -31,6 +33,8 @@ export default {
     <CoursesApp />
     <!--step-banner-section-->
     <StepBannerApp />
+    <!--events-section-->
+    <EventsApp />
 
 
 
