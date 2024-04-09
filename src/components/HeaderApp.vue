@@ -36,7 +36,7 @@ export default{
                     Call Now 123-456-7890
                 </span>
                 <span class="align-self-end">
-                    <button type="button" class="btn btn-light px-5 py-1 fw-medium" style="margin-left: 125px;">Donate</button>
+                    <button type="button" class="btn btn-light px-5 py-1 fw-medium" style="margin-left: 130px;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Donate</button>
                 </span>
             </div>
 
@@ -62,16 +62,12 @@ export default{
 </template>
 
 <style>
-@import 'bootstrap/dist/css/bootstrap.css';
-@import 'bootstrap-vue/dist/bootstrap-vue.css';
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
-
 .section_header{
     height: 80px;
     background-color: rgba(0, 0, 0, 0.406);
     z-index: 2;
    position: relative;
-   font-size: 14px;
+   font-size: 12px;
 
 }
 

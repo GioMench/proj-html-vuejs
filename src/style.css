@@ -6,21 +6,24 @@
 *{
   box-sizing: border-box;
   border: 1px dashed black;
+  font-family:'Alexandria' ;
 }
 
-/*UTILITY*/
+/*UTILITIES*/
 :root {
   --chess-lighter: #FFFFFF;
   --chess-darker: #404040;
   --chess-accent: #FFCD18;
   --chess-text: #E8E8E8;
-  --font-family: alexandria 
-
 }
 
 .me_container{
-  max-width: 980px;
-  margin: auto;
+  max-width: 800px;
+  margin: auto; 
+}
+.me_container_xs{
+  width: 50%;
+  padding: 60px 5px;
   
 }
 

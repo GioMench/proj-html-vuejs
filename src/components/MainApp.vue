@@ -9,31 +9,43 @@ export default {
     <!--back-img-welcome-section-->
     <img class=" img_top" src="/public/images/mt-2236-home-bg1.jpg" alt="">
     <!--welcome-section-->
-    <div class="container-fluid welcome_section">
-        <span class="align-middle">
+    <section class="container-fluid welcome_section">
+        <!--phone-icon-left-->
+        <div class="align-middle">
             <i class="fa-solid fa-phone" style="color: #FFCD18;"></i>
-        </span>
-
-        <div class="me_container ">
-            <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet id nostrum quidem at animi soluta nisi,
-                alias,
-                iure temporibus nemo perferendis vel ipsam delectus? Hic earum repellendus veniam! Assumenda,
-                perspiciatis.
-            </span>
         </div>
-    </div>
-    
+        <!---->
+        <div class="me_container" style="height: 100%;">
+            <div class="me_container_xs" style="height: 100%">
+
+                <span class="text-dark fw-semibold text-uppercase"
+                    style="background-color: #FFCD18; padding: 2px 4px; border-radius: 20px; font-size: 10px;">
+                    Welcome
+                </span>
+                <h1 class="text-uppercase text-light fw-medium">
+                    academic chess for <span class="fst-italic" style="color: #FFCD18;">everyone</span>
+                </h1>
+                <p class="text-light fw-light" style="font-size: 12px;">
+                    We are dedicated to broadening and developing chess as art, 
+                    recreation, and as a significant element of culture in Northern
+                    California
+                </p>
+                <button type="button" class="btn px-4 py-2" style="background-color: #FFCD18;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Enroll Now</button>
+                <button type="button" class="btn btn-outline-light mx-2 px-4 py-2" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn More</button>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
 
 
 
 </template>
 
 <style scoped>
-@import 'bootstrap/dist/css/bootstrap.css';
-@import 'bootstrap-vue/dist/bootstrap-vue.css';
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
-
 .img_top {
     max-width: 100%;
     height: 100%;
@@ -55,6 +67,7 @@ export default {
     border-radius: 50%;
     margin-left: 0;
     position: absolute;
-    top: 50%;
+    top: 45%;
 }
+
 </style>
