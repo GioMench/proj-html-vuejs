@@ -9,11 +9,11 @@ export default {
     <section class="bg_dark" style="height: 225px;">
         <div class="me_container">
             <div class="row me_row">
-                <div class="col-3 ">
+                <div class="col-4 ">
                     <!--logo-->
                     <img src="/public/images/mt-2236-home-logo.png" alt="academic logo" style="width: 130px;">
                 </div>
-                <div class="col-4">
+                <div class="col-3 px-2">
                     <!--social-->
                     <div class="text-capitalize text-light fw-light p-1" style="font-size: 14px;">
                         follow us
