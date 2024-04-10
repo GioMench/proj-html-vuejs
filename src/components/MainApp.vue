@@ -6,6 +6,7 @@ import PlayBannerApp from './PlayBannerApp.vue'
 import CoursesApp from './CoursesApp.vue'
 import StepBannerApp from './StepBannerApp.vue'
 import EventsApp from './EventsApp.vue'
+import NewsApp from './NewsApp.vue'
 export default {
     name: 'MainApp',
     components: {
@@ -15,7 +16,8 @@ export default {
         PlayBannerApp,
         CoursesApp,
         StepBannerApp,
-        EventsApp
+        EventsApp,
+        NewsApp
     }
 }
 </script>
@@ -35,6 +37,8 @@ export default {
     <StepBannerApp />
     <!--events-section-->
     <EventsApp />
+    <!--news-section-->
+    <NewsApp />
 
 
 
