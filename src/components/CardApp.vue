@@ -3,33 +3,6 @@ export default{
     name:'CardApp',
     props : {
         course : Object
-    },
-    data() {
-        return {
-            courses: [
-                {
-                    img: "mt-2236-home-img1.jpg",
-                    title: "garry kasparov's masterclass",
-                    text: "Learn the tips, tricks, and stategies from one of the best masters",
-                    price: " $456"
-
-                },
-                {
-                    img: "mt-2236-home-img2.jpg",
-                    title: "online chess lessons for beginners",
-                    text: "Catered to adult beginners who have a few hours a week to practise",
-                    price: " $205"
-
-                },
-                {
-                    img: "mt-2236-home-img3.jpg",
-                    title: "international chess school online",
-                    text: "Chess lessons for children and adults held completely online",
-                    price: " $356"
-
-                }
-            ]
-        }
     }
 }
 </script>
