@@ -20,7 +20,7 @@ export default {
         <div class="row py-4">
             <div class="col d-flex my-3">
                 <img src="/public/images/mt-2236-home-img4.jpg" alt="child">
-                <div class="d-flex flex-column justify-content-center p-4">
+                <div class="d-flex flex-column justify-content-center p-4 ">
                     <h6>
                         Grand Summer Tournament of 2021
                     </h6>
