@@ -1,10 +1,13 @@
 <script>
-
+import LinksHeaderApp from './LinksHeaderApp.vue'
 export default{
     name: 'HeaderApp',
+    components:{
+        LinksHeaderApp
+    },
     data(){
         return{
-            infoList:['Service', 'Courses', 'About', 'FAQ', 'Blog', 'Contact Us']
+            infoList:['home','service', 'courses', 'about', 'FAQ', 'blog', 'contact us']
         }
     }
 }
@@ -31,23 +34,21 @@ export default{
         <div class="navbar_right d-flex flex-column justify-content-between">
 
             <div>
+                <!--phone-number-academy-->
                 <span>
                     <i class="fa-solid fa-phone text_accent"></i>
                     Call Now 123-456-7890
                 </span>
+                <!--btn-->
                 <span class="align-self-end">
                     <button type="button" class="btn btn-light py-1 fw-medium" style="margin-left: 130px;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; width: 120px;border-radius: 8px;">Donate</button>
                 </span>
             </div>
 
             <div>
+                <!--link-info-->
                 <ul class="d-flex m-0" >
-                    <li  class="px-2 ">
-                        <a class="text_accent" href="#">Home</a>
-                    </li>
-                    <li class="px-2 " v-for="info in infoList">
-                        <a   class="text-light" href="#">{{ info }}</a>
-                    </li>
+                    <LinksHeaderApp v-for="info in infoList" :info="info" />
                 </ul>
             </div>
         </div>
