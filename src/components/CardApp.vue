@@ -29,4 +29,10 @@ export default{
             </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.me_card {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0;
+
+}
+</style>
