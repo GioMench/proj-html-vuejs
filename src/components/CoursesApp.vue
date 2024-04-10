@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-    <div class="me_container py-5">
+    <div class="me_container">
         <!--title-->
         <h3 class="text-center  fw-semibold">
             Courses
@@ -78,8 +78,13 @@ export default {
 </template>
 
 <style scoped>
+.me_container{
+    padding-top: 55px ;
+    padding-bottom: 30px;
+}
 .me_card {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0;
 
 }
 </style>
