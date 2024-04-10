@@ -9,8 +9,31 @@ export default {
                 'Learn to plan, organize, and prioritize',
                 'Regulate emotions',
                 'Learn to pay attention to detail'
+            ],
+
+            services: [
+                {
+                    img: "mt-2236-home-icon1.png",
+                    title: "various age groups",
+                    text: "We provide chess classes to both children from 5 years old and adult."
+                },
+                {
+                    img: "mt-2236-home-icon2.png",
+                    title: "top chess variants",
+                    text: "We don't only teach classical chess but also other top variants of this game."
+                },
+                {
+                    img: "mt-2236-home-icon3.png",
+                    title: "best chess players",
+                    text: "Our alumni have won many prestigious chess tournaments in the country."
+                },
+                {
+                    img: "mt-2236-home-icon4.png",
+                    title: "best chess openings",
+                    text: "Our students know all the best chess openings and how to use them."
+                },
             ]
-            
+
         }
     }
 }
@@ -21,14 +44,16 @@ export default {
 <template>
     <!--service-section-->
     <section class="me_container container py-5">
-        <!--title-->
-        <h3 class="text-center text-uppercase fw-semibold">
-            our services
-        </h3>
-        <div class="text-center fw-light text_grey" style=" font-size: 15px;">
-            We make your child happy day after day
+        <div class="py-2">
+            <!--title-->
+            <h3 class="text-center text-uppercase fw-semibold">
+                our services
+            </h3>
+            <div class="text-center fw-light text_grey" style=" font-size: 15px;">
+                We make your child happy day after day
+            </div>
         </div>
-       
+
         <div class="row py-3">
             <!--left-section-service-->
             <div class="col-4">
@@ -53,70 +78,33 @@ export default {
                     </li>
                 </ul>
                 <!--btn-more-->
-                <button type="button" class="btn px-4 py-2 fw-semibold bg_accent" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn More</button>
+                <button type="button" class="btn px-4 py-2 fw-semibold bg_accent"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Learn
+                    More</button>
 
 
             </div>
             <!--right-section-service-->
             <div class="col-8">
-                <div class="row ">
+                <div class="row">
                     <!--grid-services-->
-                    <div class="col-6 gx-5 ">
+                    <div class="col-6 gx-5 " v-for="service in services" style="padding-bottom: 35px;">
                         <div>
                             <!--icon-service-->
-                            <img class="icon_services" src="/public/images/mt-2236-home-icon1.png" alt="icon team" >
+                            <img class="icon_services" :src="'/public/images/' + service.img" alt="icon team">
                         </div>
                         <!--title-service-->
                         <div class="fw-semibold text-capitalize py-1" style="font-size: 13px;">
-                            various age groups
+                            {{ service.title }}
                         </div>
                         <!--description-serice-->
-                        <p class="text_grey fw-light py-1" style="font-size: 11px;" >
-                            We provide chess classes to both children from 5 years old and adult.
+                        <p class="text_grey fw-light py-1" style="font-size: 11px;">
+                            {{ service.text }}
                         </p>
                     </div>
-                    <div class="col-6 gx-5 ">
-                        <div>
-                            <!--icon-service-->
-                            <img class="icon_services" src="/public/images/mt-2236-home-icon2.png" alt="icon team" >
-                        </div>
-                        <!--title-service-->
-                        <div class="fw-semibold text-capitalize py-1" style="font-size: 13px;">
-                            top chess variants
-                        </div>
-                        <!--description-serice-->
-                        <p class="text_grey fw-light py-1" style="font-size: 11px;" >
-                            We don't only teach classical chess but also other top variants of this game.
-                        </p>
-                    </div>
-                    <div class="col-6 gx-5 gy-4">
-                        <div>
-                            <!--icon-service-->
-                            <img class="icon_services" src="/public/images/mt-2236-home-icon3.png" alt="icon team" >
-                        </div>
-                        <!--title-service-->
-                        <div class="fw-semibold text-capitalize py-1" style="font-size: 13px;">
-                            best chess players
-                        </div>
-                        <!--description-serice-->
-                        <p class="text_grey fw-light py-1" style="font-size: 11px;" >
-                            Our alumni have won many prestigious chess tournaments in the country.
-                        </p>
-                    </div>
-                    <div class="col-6 gx-5 gy-4">
-                        <div>
-                            <!--icon-service-->
-                            <img class="icon_services " src="/public/images/mt-2236-home-icon4.png" alt="icon team" >
-                        </div>
-                        <!--title-service-->
-                        <div class="fw-semibold text-capitalize py-1" style="font-size: 13px;">
-                           best chess openings
-                        </div>
-                        <!--description-serice-->
-                        <p class="text_grey fw-light py-1" style="font-size: 11px;" >
-                            Our students know all the best chess openings and how to use them.
-                        </p>
-                    </div>  
+
+
+
                 </div>
             </div>
         </div>
@@ -124,7 +112,7 @@ export default {
 </template>
 
 <style scoped>
-.icon_services{
+.icon_services {
     width: 40px;
 }
 </style>
