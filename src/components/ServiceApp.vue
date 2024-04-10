@@ -1,6 +1,10 @@
 <script>
+import ServiceElementApp from './ServiceElementApp.vue';
 export default {
     name: 'ServiceApp',
+    components: {
+        ServiceElementApp
+    },
     data() {
         return {
             skills: [
@@ -88,23 +92,7 @@ export default {
             <div class="col-8">
                 <div class="row">
                     <!--grid-services-->
-                    <div class="col-6 gx-5 " v-for="service in services" style="padding-bottom: 35px;">
-                        <div>
-                            <!--icon-service-->
-                            <img class="icon_services" :src="'/public/images/' + service.img" alt="icon team">
-                        </div>
-                        <!--title-service-->
-                        <div class="fw-semibold text-capitalize py-1" style="font-size: 13px;">
-                            {{ service.title }}
-                        </div>
-                        <!--description-serice-->
-                        <p class="text_grey fw-light py-1" style="font-size: 11px;">
-                            {{ service.text }}
-                        </p>
-                    </div>
-
-
-
+                    <ServiceElementApp v-for="service in services" :service="service" />
                 </div>
             </div>
         </div>
@@ -112,7 +100,5 @@ export default {
 </template>
 
 <style scoped>
-.icon_services {
-    width: 40px;
-}
+
 </style>
