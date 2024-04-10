@@ -91,7 +91,7 @@ export default {
             <!--right-section-service-->
             <div class="col-8">
                 <div class="row">
-                    <!--grid-services-->
+                    <!--component-->
                     <ServiceElementApp v-for="service in services" :service="service" />
                 </div>
             </div>

@@ -46,21 +46,18 @@ export default {
         <div class="text-center fw-light text_grey" style=" font-size: 15px;">
             To keep up with the costantly rising standards of play
         </div>
-
         <!--courses-->
         <div class="row py-4">
-
+            <!--component-->
             <CardApp v-for="course in courses" :course="course" />
-
         </div>
-
         <div class="text-center py-1">
+            <!--btn-->
             <button type="button" class="btn btn-outline-dark px-4 py-2 fw-semibold"
                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;border-width: 1.5px;">
                 View Other Courses
             </button>
         </div>
-
     </div>
 </template>
 

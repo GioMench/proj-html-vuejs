@@ -14,7 +14,7 @@ export default{
 </script>
 
 <template>
-
+    <!--header-section-->
   <section class="section_header">
     <!--navbar-->
     <div class="me_container d-flex justify-content-between p-3 text-light fw-light" style="height: 100%;">
@@ -48,6 +48,7 @@ export default{
             <div>
                 <!--link-info-->
                 <ul class="d-flex m-0" >
+                    <!--component-->
                     <LinksHeaderApp v-for="info in infoList" :info="info" />
                 </ul>
             </div>

@@ -12,7 +12,8 @@ export default {
     <!--step-banner-section-->
     <section class="banner">
 
-        <div class="me_container step_section d-flex justify-content-between align-items-center p-4" style="height: 100%;">
+        <div class="me_container step_section d-flex justify-content-between align-items-center p-4"
+            style="height: 100%;">
             <div>
                 <div class="text-uppercase fw-semibold text-light" style="font-size: 30px;">
                     take the <span class="text_accent">first step</span>
@@ -22,7 +23,11 @@ export default {
                 </div>
 
             </div>
-            <button type="button" class="btn px-4 py-2 fw-semibold bg_accent" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">View More</button>
+            <!--btn-->
+            <button type="button" class="btn px-4 py-2 fw-semibold bg_accent"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                View More
+            </button>
         </div>
     </section>
 
