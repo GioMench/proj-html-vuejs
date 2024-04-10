@@ -7,6 +7,7 @@ import CoursesApp from './CoursesApp.vue'
 import StepBannerApp from './StepBannerApp.vue'
 import EventsApp from './EventsApp.vue'
 import NewsApp from './NewsApp.vue'
+import FooterApp from './FooterApp.vue'
 export default {
     name: 'MainApp',
     components: {
@@ -17,7 +18,8 @@ export default {
         CoursesApp,
         StepBannerApp,
         EventsApp,
-        NewsApp
+        NewsApp,
+        FooterApp
     }
 }
 </script>
@@ -39,6 +41,8 @@ export default {
     <EventsApp />
     <!--news-section-->
     <NewsApp />
+    <!--footer-section-->
+    <FooterApp />
 
 
 

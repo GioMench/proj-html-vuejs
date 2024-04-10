@@ -58,3 +58,7 @@ a {
 .bg_light {
   background-color: var(--chess-light);
 }
+
+.bg_dark{
+  background-color: var(--chess-darker);
+}

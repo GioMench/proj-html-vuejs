@@ -10,10 +10,13 @@ export default {
         <div class="me_container py-5">
             <div class="row">
                 <div class="col-4">
+                    <!--title-->
                     <h3 class=" text-capitalize fw-semibold">
                         latest news
                     </h3>
+                    <!--line-decoration-->
                     <div class="py-2" style="border-bottom: 3px #FFCD18 solid; width: 60px;"></div>
+                    <!--btn-->
                     <div class="py-4">
                         <button type="button" class="btn btn-outline-dark p-2 fw-semibold"
                             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: .75rem;border-width: 1.5px; width: 170px;">
@@ -22,14 +25,18 @@ export default {
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="/public/images/mt-2236-blog-img1.jpg" alt="" style="width: 100%;">
-                    <div class="py-2" style="font-size: 12px;">
+                    <!--img-->
+                    <img src="/public/images/mt-2236-blog-img1.jpg" alt="">
+                    <!--description-->
+                    <div class="py-2 text">
                         The most common mistakes when managing personal finances
                     </div>
                 </div>
                 <div class="col-4">
-                    <img src="/public/images/mt-2236-blog-img2.jpg" alt="" style="width: 100%;">
-                    <div class="py-2" style="font-size: 12px;">
+                    <!--img-->
+                    <img src="/public/images/mt-2236-blog-img2.jpg" alt="">
+                    <!--description-->
+                    <div class="py-2 text">
                         Methods of the recruitment
                     </div>
                 </div>
@@ -39,4 +46,12 @@ export default {
     </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+img {
+    width: 100%;
+}
+
+.text {
+    font-size: 12px;
+}
+</style>
