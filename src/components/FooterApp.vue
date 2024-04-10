@@ -20,15 +20,15 @@ export default {
                     </div>
                     <div class="d-flex">
                         <!--social-icon-facebook-->
-                        <div class="p-1">
+                        <div class="py-1 m-1">
                             <i class="fa-brands fa-facebook-f icon text-light" style="padding: 8px 10px;"></i>
                         </div>
                         <!--social-icon-mail-->
-                        <div class="p-1">
+                        <div class="py-1 my-1">
                             <i class="fa-solid fa-paper-plane icon text-light" style="padding: 8px;"></i>
                         </div>
                         <!--social-icon-istagram-->
-                        <div class="p-1">
+                        <div class="py-1 m-1">
                             <i class="fa-brands fa-instagram icon text-light" style="padding: 8px;"></i>
                         </div>
                     </div>

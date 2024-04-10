@@ -17,7 +17,7 @@ export default {
                 <div class="text-uppercase fw-semibold text-light" style="font-size: 30px;">
                     take the <span class="text_accent">first step</span>
                 </div>
-                <div class="fw-light text-light" style="font-size: 11.5px;">
+                <div class="fw-light text-light py-1" style="font-size: 11.5px;">
                     The fascinating world of chess has its doors open for anyone
                 </div>
 

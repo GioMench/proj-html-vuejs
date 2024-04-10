@@ -17,17 +17,16 @@ export default {
             Chess is fun and we are happy to prove it at our events!
         </div>
 
-        <div class="row py-3">
+        <div class="row py-4">
             <div class="col d-flex my-3">
                 <img src="/public/images/mt-2236-home-img4.jpg" alt="child">
-                <div class="d-flex flex-column justify-content-center p-3">
+                <div class="d-flex flex-column justify-content-center p-4">
                     <h6>
                         Grand Summer Tournament of 2021
                     </h6>
                     <p class="text_grey fw-light" style="font-size: 11px;">
                         Join us for the Grand Summer Tournament 2021. Held every year on the first Sunday of summer, our
-                        Grand Summer Tournament chess masters and beginners from North California.
-                        We have competitions for different levels of chess mastery with amazing prizes
+                        Grand Summer Tournament chess masters and beginners from North California. <br>We have competitions for different levels of chess mastery with amazing prizes
                         awarded at each level.
                     </p>
                 </div>

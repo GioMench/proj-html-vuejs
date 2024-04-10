@@ -14,7 +14,7 @@ export default{
 
   <section class="section_header">
     <!--navbar-->
-    <div class="me_container d-flex justify-content-between p-1 text-light fw-light" style="height: 100%;">
+    <div class="me_container d-flex justify-content-between p-3 text-light fw-light" style="height: 100%;">
         <!--left-side-navbar-->
         <div class="navbar_left d-flex flex-column justify-content-between"> 
             <!--address-academy-->
@@ -24,7 +24,7 @@ export default{
             </div>
             <!--logo-academy-->
             <div>
-                <img src="/public/images/mt-2236-home-logo.png" alt="">
+                <img src="/public/images/mt-2236-home-logo.png" alt="" style="width: 135px;">
             </div>
         </div>
         <!--right-side-navbar-->
@@ -36,7 +36,7 @@ export default{
                     Call Now 123-456-7890
                 </span>
                 <span class="align-self-end">
-                    <button type="button" class="btn btn-light px-5 py-1 fw-medium" style="margin-left: 130px;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Donate</button>
+                    <button type="button" class="btn btn-light py-1 fw-medium" style="margin-left: 130px;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; width: 120px;border-radius: 8px;">Donate</button>
                 </span>
             </div>
 
@@ -63,11 +63,11 @@ export default{
 
 <style scoped>
 .section_header{
-    height: 80px;
+    height: 85px;
     background-color:#00030f65 ;
     z-index: 2;
    position: relative;
-   font-size: 12px;
+   font-size: 11px;
 }
 
 

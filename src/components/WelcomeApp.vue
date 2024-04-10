@@ -18,7 +18,7 @@ export default{
             <div class="me_container_xs" style="height: 100%">
                 <!--welcome-fake-button-->
                 <span class="text-dark fw-semibold text-uppercase bg_accent"
-                    style="padding: 1px 6px; border-radius: 20px; font-size: 10px;">
+                    style="padding: 1px 6px; border-radius: 20px; font-size: 9px;">
                     Welcome
                 </span>
                 <!--title-->
@@ -26,14 +26,14 @@ export default{
                     academic chess for <span class="fst-italic text_accent" >everyone</span>
                 </h1>
                 <!--explain-academy-->
-                <p class="text-light fw-light" style="font-size: 12px;">
+                <p class="text-light fw-light py-2" style="font-size: 12px;">
                     We are dedicated to broadening and developing chess as art, 
                     recreation, and as a significant element of culture in Northern
-                    California
+                    California.
                 </p>
                 <!--button-for-more-->
                 <button type="button" class="btn px-4 py-2 fw-semibold bg_accent" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Enroll Now</button>
-                <button type="button" class="btn btn-outline-light mx-2 px-4 py-2 fw-semibold" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;border-width: 1.5px;">Learn More</button>
+                <button type="button" class="btn btn-outline-light mx-3 px-4 py-2 fw-semibold" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;border-width: 1.5px;">Learn More</button>
 
             </div>
         </div>
