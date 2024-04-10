@@ -15,8 +15,8 @@ export default {
                     </h3>
                     <div class="py-2" style="border-bottom: 3px #FFCD18 solid; width: 60px;"></div>
                     <div class="py-4">
-                        <button type="button" class="btn btn-outline-dark px-4 py-2 fw-semibold"
-                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;border-width: 1.5px;">
+                        <button type="button" class="btn btn-outline-dark p-2 fw-semibold"
+                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: .75rem;border-width: 1.5px; width: 170px;">
                             View Other Posts
                         </button>
                     </div>
