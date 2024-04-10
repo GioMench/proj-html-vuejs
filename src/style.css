@@ -13,11 +13,13 @@
   --chess-lighter: #FFFFFF;
   --chess-darker: #404040;
   --chess-accent: #FFCD18;
-  --chess-text: #E8E8E8;
+  --chess-light: #E8E8E8;
 }
-*{
+
+* {
   font-family: 'Alexandria';
 }
+
 .me_container {
   max-width: 800px;
   margin: auto;
@@ -32,7 +34,8 @@
 li {
   list-style: none;
 }
-a{
+
+a {
   text-decoration: none;
 }
 
@@ -40,13 +43,18 @@ a{
   color: var(--chess-darker);
 }
 
-.bg_accent{
+.bg_accent {
   background-color: var(--chess-accent);
 }
-.text_accent{
+
+.text_accent {
   color: var(--chess-accent);
 }
 
-.btn{
+.btn {
   border-radius: 3px;
+}
+
+.bg_light {
+  background-color: var(--chess-light);
 }
